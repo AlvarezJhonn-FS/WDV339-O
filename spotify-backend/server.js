@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-dotenv.config(); // Load .env at the very top
+dotenv.config();
 
 import express from 'express';
 import querystring from 'querystring';
@@ -42,7 +42,7 @@ app.get('/auth/callback', (req, res) => {
     return res.status(400).send('No code found in callback');
   }
 
-  // For now, just send back the authorization code
+
   res.send(`Authorization code received: ${code}`);
 });
 
