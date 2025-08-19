@@ -27,6 +27,6 @@ Before running the project, ensure you have:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/spotify-search-backend.git
+git clone https://github.com/AlvarezJhonn-FS/spotify-search-backend.git
 cd spotify-search-backend
 npm install
